@@ -10,7 +10,14 @@ import streamlit as st
 # Mostrar la imagen al inicio
 st.image("logo.jpg", width=710)  # Ajusta el ancho según tus necesidades
 
+st.subheader("")
+st.subheader("")
+
+
 st.title("Desafío PensionISSSTE: ¡Pon a Prueba tu Conocimiento!")
+
+st.subheader("")
+st.subheader("")
 
 # Cambia el siguiente enlace por el de tu formulario
 iframe_code = '''
