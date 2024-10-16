@@ -7,6 +7,9 @@ Created on Wed Oct 16 14:23:29 2024
 
 import streamlit as st
 
+# Mostrar la imagen al inicio
+st.image("logo.jpg", width=710)  # Ajusta el ancho según tus necesidades
+
 st.title("Desafío PensionISSSTE: ¡Pon a Prueba tu Conocimiento!")
 
 # Cambia el siguiente enlace por el de tu formulario
