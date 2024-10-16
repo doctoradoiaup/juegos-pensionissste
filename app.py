@@ -10,14 +10,17 @@ import streamlit as st
 # Mostrar la imagen al inicio
 st.image("logo.jpg", width=710)  # Ajusta el ancho según tus necesidades
 
-st.subheader("")
-st.subheader("")
-
-
 st.title("Desafío PensionISSSTE: ¡Pon a Prueba tu Conocimiento!")
 
-st.subheader("")
-st.subheader("")
+# Descripción en la barra lateral
+with st.sidebar:
+    st.header("¿De qué trata?")
+    st.write("""
+    Este desafío está diseñado para ayudarte a conocer mejor tu AFORE PensionISSSTE. 
+    Responde preguntas sobre el sistema de ahorro para el retiro, los beneficios del ahorro voluntario, 
+    y mucho más. ¡Es una excelente oportunidad para aprender y asegurar tu futuro financiero!
+    """)
+    st.write("¡Participa y conviértete en un experto en tu AFORE!")
 
 # Cambia el siguiente enlace por el de tu formulario
 iframe_code = '''
